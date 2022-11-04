@@ -1,0 +1,35 @@
+{
+    "id": "ferncombe",
+    "title": "The Township of Ferncombe",
+    "description": "<p></p>",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Roman Trevisanut",
+            "discord": "Cobalt#7779",
+            "url": "https://foundryvtt.com"
+        },
+        {
+            "name": "Shane Martland",
+            "discord": "Anathema#3668",
+            "url": "https://foundryvtt.com"
+        }
+    ],
+    "scripts": [],
+    "esmodules": ["./js/ferncombe.mjs"],
+    "styles": ["./styles/ferncombe.css"],
+    "minimumCoreVersion": "10",
+    "compatibleCoreVersion": "10",
+    "packs": [
+        {
+            "name": "ferncombe",
+            "label": "Ferncombe",
+            "path": "packs/ferncombe.db",
+            "type": "JournalEntry"
+        }
+    ],
+    "relationships": {
+    },
+    "protected": false,
+    "manifest": ""
+}
