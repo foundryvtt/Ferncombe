@@ -22,15 +22,9 @@
     "compatibleCoreVersion": "10",
     "packs": [
         {
-            "name": "ferncombe",
-            "label": "Ferncombe",
-            "path": "packs/ferncombe.db",
-            "type": "JournalEntry"
-        },
-        {
             "name": "Ferncombe",
             "label": "Ferncombe",
-            "path": "packs/ferncombeadventure.db",
+            "path": "packs/ferncombe.db",
             "type": "Adventure"
         }
     ],
