@@ -26,6 +26,12 @@
             "label": "Ferncombe",
             "path": "packs/ferncombe.db",
             "type": "JournalEntry"
+        },
+        {
+            "name": "Ferncombe",
+            "label": "Ferncombe",
+            "path": "packs/ferncombeadventure.db",
+            "type": "Adventure"
         }
     ],
     "relationships": {
