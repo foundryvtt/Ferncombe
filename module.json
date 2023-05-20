@@ -1,5 +1,5 @@
 {
-    "id": "Ferncombe",
+    "id": "ferncombe",
     "title": "The Township of Ferncombe",
     "description": "<p></p>",
     "version": "0.1.0",
@@ -22,7 +22,7 @@
     "compatibleCoreVersion": "10",
     "packs": [
         {
-            "name": "Ferncombe",
+            "name": "ferncombe",
             "label": "Ferncombe",
             "path": "packs/ferncombe.db",
             "type": "JournalEntry"
