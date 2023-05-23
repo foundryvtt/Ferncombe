@@ -1,0 +1,143 @@
+.ferncombe.journal-sheet, @{adventure-sheet} {
+
+  /* ----------------------------------------- */
+  /*  Typography                               */
+  /* ----------------------------------------- */
+
+  p {
+    margin: 1rem 0;
+    font-family: var(--body-font);
+    &.important {
+      text-align: center;
+      font-weight: bold;
+      font-size: var(--body-size);
+      line-height: 1rem;
+    }
+  }
+
+  h1 {
+    font-family: var(--h1-font);
+    font-size: var(--h1-size);
+  }
+
+  h2 {
+    font-size: var(--h2-size);
+    font-family: var(--h2-font);
+    font-weight: bold;
+    &::before { border-top: 6px double ; }
+    &::after { border-top: 6px double; }
+  }
+
+  h3 {
+    font-size: var(--h3-size);
+    font-family: var(--h3-font);
+    font-weight: bold;
+    border: unset;
+    &::before { border-top: 4px dotted; }
+    &::after { border-top: 4px dotted; }
+  }
+
+  // Apply fancy borders to some headers
+  section.journal-page-content, section.adventure-overview, section.adventure-contents {
+    h2, h3 {
+      border: none;
+      display: flex;
+      clear: both;
+      justify-content: center;
+      align-items: center;
+      white-space: nowrap;
+      color: var(--manor-red-dark);
+      &::before {
+        content: "";
+        width: 50%;
+        margin-right: 1rem;
+        border-color: var(--manor-red-dark);
+      }
+      &::after {
+        content: "";
+        width: 50%;
+        margin-left: 1rem;
+        border-color: var(--manor-red-dark);
+      }
+    }
+  }
+
+  // Page & adventure headers
+  .journal-page-header, .adventure-header {
+    width: 100%;
+    margin: 0 auto 1rem;
+    background: url(ui/top-left.webp) no-repeat left, url(ui/top-right.webp) no-repeat right;
+    background-size: 49%;
+    background-position: 0 0, 100% 0;
+    h1, h2, h3 {
+      text-align: center;
+      line-height: 50px;
+      padding-top: 20px;
+      border-bottom: 3px solid var(--manor-red-dark);
+      border-radius: 0 0 100px 100px / 0px 10px 75px 75px;
+    }
+  }
+
+  /* ----------------------------------------- */
+  /*  Blocks                                   */
+  /* ----------------------------------------- */
+
+  section.journal-page-content {
+
+    // Only on headers that appear in the text content
+    h2 {
+      margin-top: 2rem;
+    }
+    h3 {
+      margin-top: 1rem;
+    }
+
+    /** Tables */
+    table {
+      table-layout: fixed;
+      th, td {
+        padding: 0.5rem;
+      }
+    }
+
+    /** Two-Column Layout */
+    .columns {
+      figure.portrait {
+        flex: 0 0 200px;
+        margin: 0 0 0 1rem;
+      }
+    }
+
+    /* Figures */
+    figure {
+      img {
+        border: none;
+      }
+      &.landscape{
+        margin: 1rem;
+      }
+      &.portrait{
+        width: 200px;
+        &.right {
+          float: right;
+          margin: 0 0 0 1rem;
+        }
+      }
+    }
+
+    /* Box Text Variants */
+    .box-text {
+      margin: 1rem;
+
+      &.narrative {
+        font-family: var(--body-i);
+        padding: 0 2rem;
+        background: linear-gradient(90deg, transparent, rgba(175, 128, 39, 0.1) 5% 95%, transparent);
+        border-radius: 1.5rem;
+        margin: 1rem;
+        border-top: 2px solid rgba(64, 64, 64, 0.8);
+        border-bottom: 2px solid rgba(64, 64, 64, 0.8);
+      }
+    }
+  }
+}

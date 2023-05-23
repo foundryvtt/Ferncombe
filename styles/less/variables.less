@@ -2,7 +2,10 @@
 /*  Variable Definitions                     */
 /* ----------------------------------------- */
 
-.ferncombe {
+@adventure-sheet: #AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv;
+@locations-journal: #FerncombeJournalSheet-JournalEntry-k5b3J8XntDD4aDgY;
+
+.ferncombe, @{adventure-sheet} {
 
   // Fonts
   --body-font: "Sabon LT", sans-serif;
@@ -16,7 +19,7 @@
   // Font Sizes
   --body-size: var(--font-size-14);
   --h1-size: var(--font-size-28);
-  --h2-size: var(--font-size-24);
+  --h2-size: var(--font-size-20);
   --h3-size: var(--font-size-20);
   --h4-size: var(--font-size-18);
 
@@ -24,31 +27,58 @@
   --color-text-dark-primary: #000000;
 
   // Colors
-  --manor-black: #1a0a00;
-  --manor-ink: #420000;
-  --manor-parchment: rgba(255, 156, 0, 0.06);
-  --manor-parchment-shade: rgba(68, 0, 255, 0.1);
-  --manor-parchment-fey: rgba(255, 119, 0, 0.1);
-  --manor-green: rgba(136, 160, 108, 0.8);
-  --manor-green-light: rgba(163, 169, 138, 0.8);
-  --manor-green-dark: rgba(101, 111, 57, 0.8);
-  --manor-green-darkest: rgba(55, 60, 30, 1);
-  --manor-red: rgba(103, 20, 23, 0.8);
   --manor-red-light: rgba(160, 47, 57, 0.8);
   --manor-red-dark: rgba(80, 44, 42, 0.8);
-  --manor-red-dark-solid: #6c4e4c;
-  --manor-wine: rgba(86, 56, 69, 0.8);
-  --manor-wine-light: rgba(118, 102, 121, 0.8);
-  --manor-wine-dark: rgba(118, 102, 121, 0.8);
-  --manor-purple: #67006d;
-  --manor-purple-light: #6a00ac;
-  --manor-purple-dark: #3c0040;
-  --manor-gold: #866900;
-  --manor-gold-light: #bf8700;
-  --manor-gold-dark: #6a4500;
-  --manor-orange: #a35600;
-  --manor-yellow: #d4a500;
-  --manor-blue-light: #b6bac3;
-  --manor-blue-medium: #555c6c;
-  --manor-blue-dark: #1f2226;
+}
+
+/* ----------------------------------------- */
+/*  Fonts                                    */
+/* ----------------------------------------- */
+
+@font-face {
+  font-family: 'Felix Titling';
+  src: url('../styles/fonts/felix-titling.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Imprint Shadow MT';
+  src: url('../styles/fonts/imprint-shadow-mt.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sabon LT";
+  src: url("../styles/fonts/sabon-lt-std.woff2") format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sabon LT Bold";
+  src: url("../styles/fonts/sabon-lt-std.woff2") format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sabon LT Italic";
+  src: url("../styles/fonts/sabon-lt-std-italic.woff2") format('woff2');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Great Vibes";
+  src: url("../styles/fonts/great-vibes-regular.woff2") format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Adine Kirnberg";
+  src: url("../styles/fonts/adine-kirnberg.woff2") format('woff2');
+  font-weight: 400;
+  font-style: normal;
 }

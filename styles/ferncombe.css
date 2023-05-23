@@ -1,9 +1,222 @@
-/**
-Initial LESS entry point from which all other LESS will be called
- */
-/**
-Import declarations
- */
+.ferncombe.journal-sheet,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv {
+  /* ----------------------------------------- */
+  /*  Typography                               */
+  /* ----------------------------------------- */
+  /* ----------------------------------------- */
+  /*  Blocks                                   */
+  /* ----------------------------------------- */
+}
+.ferncombe.journal-sheet p,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv p {
+  margin: 1rem 0;
+  font-family: var(--body-font);
+}
+.ferncombe.journal-sheet p.important,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv p.important {
+  text-align: center;
+  font-weight: bold;
+  font-size: var(--body-size);
+  line-height: 1rem;
+}
+.ferncombe.journal-sheet h1,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv h1 {
+  font-family: var(--h1-font);
+  font-size: var(--h1-size);
+}
+.ferncombe.journal-sheet h2,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv h2 {
+  font-size: var(--h2-size);
+  font-family: var(--h2-font);
+  font-weight: bold;
+}
+.ferncombe.journal-sheet h2::before,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv h2::before {
+  border-top: 6px double ;
+}
+.ferncombe.journal-sheet h2::after,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv h2::after {
+  border-top: 6px double;
+}
+.ferncombe.journal-sheet h3,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv h3 {
+  font-size: var(--h3-size);
+  font-family: var(--h3-font);
+  font-weight: bold;
+  border: unset;
+}
+.ferncombe.journal-sheet h3::before,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv h3::before {
+  border-top: 4px dotted;
+}
+.ferncombe.journal-sheet h3::after,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv h3::after {
+  border-top: 4px dotted;
+}
+.ferncombe.journal-sheet section.journal-page-content h2,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.journal-page-content h2,
+.ferncombe.journal-sheet section.adventure-overview h2,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.adventure-overview h2,
+.ferncombe.journal-sheet section.adventure-contents h2,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.adventure-contents h2,
+.ferncombe.journal-sheet section.journal-page-content h3,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.journal-page-content h3,
+.ferncombe.journal-sheet section.adventure-overview h3,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.adventure-overview h3,
+.ferncombe.journal-sheet section.adventure-contents h3,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.adventure-contents h3 {
+  border: none;
+  display: flex;
+  clear: both;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  color: var(--manor-red-dark);
+}
+.ferncombe.journal-sheet section.journal-page-content h2::before,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.journal-page-content h2::before,
+.ferncombe.journal-sheet section.adventure-overview h2::before,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.adventure-overview h2::before,
+.ferncombe.journal-sheet section.adventure-contents h2::before,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.adventure-contents h2::before,
+.ferncombe.journal-sheet section.journal-page-content h3::before,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.journal-page-content h3::before,
+.ferncombe.journal-sheet section.adventure-overview h3::before,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.adventure-overview h3::before,
+.ferncombe.journal-sheet section.adventure-contents h3::before,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.adventure-contents h3::before {
+  content: "";
+  width: 50%;
+  margin-right: 1rem;
+  border-color: var(--manor-red-dark);
+}
+.ferncombe.journal-sheet section.journal-page-content h2::after,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.journal-page-content h2::after,
+.ferncombe.journal-sheet section.adventure-overview h2::after,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.adventure-overview h2::after,
+.ferncombe.journal-sheet section.adventure-contents h2::after,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.adventure-contents h2::after,
+.ferncombe.journal-sheet section.journal-page-content h3::after,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.journal-page-content h3::after,
+.ferncombe.journal-sheet section.adventure-overview h3::after,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.adventure-overview h3::after,
+.ferncombe.journal-sheet section.adventure-contents h3::after,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.adventure-contents h3::after {
+  content: "";
+  width: 50%;
+  margin-left: 1rem;
+  border-color: var(--manor-red-dark);
+}
+.ferncombe.journal-sheet .journal-page-header,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv .journal-page-header,
+.ferncombe.journal-sheet .adventure-header,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv .adventure-header {
+  width: 100%;
+  margin: 0 auto 1rem;
+  background: url(ui/top-left.webp) no-repeat left, url(ui/top-right.webp) no-repeat right;
+  background-size: 49%;
+  background-position: 0 0, 100% 0;
+}
+.ferncombe.journal-sheet .journal-page-header h1,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv .journal-page-header h1,
+.ferncombe.journal-sheet .adventure-header h1,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv .adventure-header h1,
+.ferncombe.journal-sheet .journal-page-header h2,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv .journal-page-header h2,
+.ferncombe.journal-sheet .adventure-header h2,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv .adventure-header h2,
+.ferncombe.journal-sheet .journal-page-header h3,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv .journal-page-header h3,
+.ferncombe.journal-sheet .adventure-header h3,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv .adventure-header h3 {
+  text-align: center;
+  line-height: 50px;
+  padding-top: 20px;
+  border-bottom: 3px solid var(--manor-red-dark);
+  border-radius: 0 0 100px 100px / 0px 10px 75px 75px;
+}
+.ferncombe.journal-sheet section.journal-page-content,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.journal-page-content {
+  /** Tables */
+  /** Two-Column Layout */
+  /* Figures */
+  /* Box Text Variants */
+}
+.ferncombe.journal-sheet section.journal-page-content h2,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.journal-page-content h2 {
+  margin-top: 2rem;
+}
+.ferncombe.journal-sheet section.journal-page-content h3,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.journal-page-content h3 {
+  margin-top: 1rem;
+}
+.ferncombe.journal-sheet section.journal-page-content table,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.journal-page-content table {
+  table-layout: fixed;
+}
+.ferncombe.journal-sheet section.journal-page-content table th,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.journal-page-content table th,
+.ferncombe.journal-sheet section.journal-page-content table td,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.journal-page-content table td {
+  padding: 0.5rem;
+}
+.ferncombe.journal-sheet section.journal-page-content .columns figure.portrait,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.journal-page-content .columns figure.portrait {
+  flex: 0 0 200px;
+  margin: 0 0 0 1rem;
+}
+.ferncombe.journal-sheet section.journal-page-content figure img,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.journal-page-content figure img {
+  border: none;
+}
+.ferncombe.journal-sheet section.journal-page-content figure.landscape,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.journal-page-content figure.landscape {
+  margin: 1rem;
+}
+.ferncombe.journal-sheet section.journal-page-content figure.portrait,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.journal-page-content figure.portrait {
+  width: 200px;
+}
+.ferncombe.journal-sheet section.journal-page-content figure.portrait.right,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.journal-page-content figure.portrait.right {
+  float: right;
+  margin: 0 0 0 1rem;
+}
+.ferncombe.journal-sheet section.journal-page-content .box-text,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.journal-page-content .box-text {
+  margin: 1rem;
+}
+.ferncombe.journal-sheet section.journal-page-content .box-text.narrative,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv section.journal-page-content .box-text.narrative {
+  font-family: var(--body-i);
+  padding: 0 2rem;
+  background: linear-gradient(90deg, transparent, rgba(175, 128, 39, 0.1) 5% 95%, transparent);
+  border-radius: 1.5rem;
+  margin: 1rem;
+  border-top: 2px solid rgba(64, 64, 64, 0.8);
+  border-bottom: 2px solid rgba(64, 64, 64, 0.8);
+}
+/* ----------------------------------------- */
+/*  Variable Definitions                     */
+/* ----------------------------------------- */
+.ferncombe,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-3SLlEPjBKIvmVqsv {
+  --body-font: "Sabon LT", sans-serif;
+  --body-b: "Sabon LT Bold", sans-serif;
+  --body-i: "Sabon LT Italic", sans-serif;
+  --h1-font: "Imprint Shadow MT", sans-serif;
+  --h2-font: "Felix Titling", sans-serif;
+  --h3-font: "Felix Titling", sans-serif;
+  --h4-font: "Felix Titling", sans-serif;
+  --body-size: var(--font-size-14);
+  --h1-size: var(--font-size-28);
+  --h2-size: var(--font-size-20);
+  --h3-size: var(--font-size-20);
+  --h4-size: var(--font-size-18);
+  --color-text-dark-primary: #000000;
+  --manor-red-light: rgba(160, 47, 57, 0.8);
+  --manor-red-dark: rgba(80, 44, 42, 0.8);
+}
 /* ----------------------------------------- */
 /*  Fonts                                    */
 /* ----------------------------------------- */
@@ -48,244 +261,45 @@ Import declarations
   font-weight: 400;
   font-style: normal;
 }
-/* ----------------------------------------- */
-/*  Variable Definitions                     */
-/* ----------------------------------------- */
 .ferncombe {
-  --body-font: "Sabon LT", sans-serif;
-  --body-b: "Sabon LT Bold", sans-serif;
-  --body-i: "Sabon LT Italic", sans-serif;
-  --h1-font: "Imprint Shadow MT", sans-serif;
-  --h2-font: "Felix Titling", sans-serif;
-  --h3-font: "Felix Titling", sans-serif;
-  --h4-font: "Felix Titling", sans-serif;
-  --body-size: var(--font-size-14);
-  --h1-size: var(--font-size-28);
-  --h2-size: var(--font-size-24);
-  --h3-size: var(--font-size-20);
-  --h4-size: var(--font-size-18);
-  --color-text-dark-primary: #000000;
-  --manor-black: #1a0a00;
-  --manor-ink: #420000;
-  --manor-parchment: rgba(255, 156, 0, 0.06);
-  --manor-parchment-shade: rgba(68, 0, 255, 0.1);
-  --manor-parchment-fey: rgba(255, 119, 0, 0.1);
-  --manor-green: rgba(136, 160, 108, 0.8);
-  --manor-green-light: rgba(163, 169, 138, 0.8);
-  --manor-green-dark: rgba(101, 111, 57, 0.8);
-  --manor-green-darkest: #373c1e;
-  --manor-red: rgba(103, 20, 23, 0.8);
-  --manor-red-light: rgba(160, 47, 57, 0.8);
-  --manor-red-dark: rgba(80, 44, 42, 0.8);
-  --manor-red-dark-solid: #6c4e4c;
-  --manor-wine: rgba(86, 56, 69, 0.8);
-  --manor-wine-light: rgba(118, 102, 121, 0.8);
-  --manor-wine-dark: rgba(118, 102, 121, 0.8);
-  --manor-purple: #67006d;
-  --manor-purple-light: #6a00ac;
-  --manor-purple-dark: #3c0040;
-  --manor-gold: #866900;
-  --manor-gold-light: #bf8700;
-  --manor-gold-dark: #6a4500;
-  --manor-orange: #a35600;
-  --manor-yellow: #d4a500;
-  --manor-blue-light: #b6bac3;
-  --manor-blue-medium: #555c6c;
-  --manor-blue-dark: #1f2226;
-}
-/* TODO: set up adventure importer with its own CSS class and remap the styles to extend to that class instead. */
-.ferncombe section.window-content,
-.adventure-importer {
-  /** Bordered Headers */
-  /** This is an ugly core override */
-  /** Dynamic Lists used for conversations **/
-  /** specific to adventure importer **/
-  /** Tables */
-  /** Approval Change Button */
-}
-.ferncombe section.window-content h1,
-.adventure-importer h1 {
-  font-family: var(--h1-font);
-  font-size: var(--h1-size);
-}
-.ferncombe section.window-content h2,
-.adventure-importer h2 {
-  font-size: var(--h2-size);
-  font-family: var(--h2-font);
-  font-weight: bold;
-}
-.ferncombe section.window-content h3,
-.adventure-importer h3 {
-  font-size: var(--h3-size);
-  font-family: var(--h3-font);
-  font-weight: bold;
-  border: unset;
-}
-.ferncombe section.window-content h4,
-.adventure-importer h4,
-h4 .ferncombe section.window-content:not(.window-title),
-h4 .adventure-importer:not(.window-title) {
-  font-family: var(--h4-font);
-  font-size: var(--h4-size);
-  font-weight: bold;
-}
-.ferncombe section.window-content h2.border,
-.adventure-importer h2.border,
-.ferncombe section.window-content h3.border,
-.adventure-importer h3.border {
-  border: none;
-  display: flex;
-  clear: both;
-  justify-content: center;
-  align-items: center;
-  white-space: nowrap;
-  color: var(--manor-red-dark);
-}
-.ferncombe section.window-content h2.border::before,
-.adventure-importer h2.border::before,
-.ferncombe section.window-content h3.border::before,
-.adventure-importer h3.border::before {
-  content: "";
-  width: 50%;
-  margin-right: 1rem;
-  border-color: var(--manor-red-dark);
-}
-.ferncombe section.window-content h2.border::after,
-.adventure-importer h2.border::after,
-.ferncombe section.window-content h3.border::after,
-.adventure-importer h3.border::after {
-  content: "";
-  width: 50%;
-  margin-left: 1rem;
-  border-color: var(--manor-red-dark);
-}
-.ferncombe section.window-content h2.border,
-.adventure-importer h2.border {
-  margin-top: 2rem;
-}
-.ferncombe section.window-content h2.border::before,
-.adventure-importer h2.border::before {
-  border-top: 6px double ;
-}
-.ferncombe section.window-content h2.border::after,
-.adventure-importer h2.border::after {
-  border-top: 6px double;
-}
-.ferncombe section.window-content h3.border,
-.adventure-importer h3.border {
-  margin-top: 1rem;
-}
-.ferncombe section.window-content h3.border::before,
-.adventure-importer h3.border::before {
-  border-top: 4px dotted;
-}
-.ferncombe section.window-content h3.border::after,
-.adventure-importer h3.border::after {
-  border-top: 4px dotted;
-}
-.ferncombe section.window-content .journal-entry-page :is(h1, h2):not(:first-child),
-.adventure-importer .journal-entry-page :is(h1, h2):not(:first-child) {
-  margin-top: 2rem;
-}
-.ferncombe section.window-content p,
-.adventure-importer p {
-  margin: 1rem 0;
-}
-.ferncombe section.window-content p.important,
-.adventure-importer p.important {
-  text-align: center;
-  font-weight: bold;
-  font-size: var(--body-size);
-  line-height: 1rem;
-}
-.ferncombe section.window-content dl dt,
-.adventure-importer dl dt {
-  font-family: var(--h4-font);
-  font-weight: bold;
-  font-size: var(--font-size-16);
-}
-.ferncombe section.window-content dl dd,
-.adventure-importer dl dd {
-  font-family: var(--body-i);
-  padding: 0 2rem;
-  background: linear-gradient(90deg, transparent, rgba(175, 128, 39, 0.1) 5% 95%, transparent);
-  border-radius: 1.5rem;
-  margin: 1rem;
-  border-left: 2px solid var(--manor-red-dark-solid);
-  border-right: 2px solid var(--manor-red-dark-solid);
-}
-.ferncombe section.window-content .adventure-overview p,
-.adventure-importer .adventure-overview p {
-  font-family: var(--body-font);
-}
-.ferncombe section.window-content table,
-.adventure-importer table {
-  table-layout: fixed;
-}
-.ferncombe section.window-content table th,
-.adventure-importer table th,
-.ferncombe section.window-content table td,
-.adventure-importer table td {
-  padding: 0.5rem;
-}
-.ferncombe section.window-content a.approval-change,
-.adventure-importer a.approval-change {
-  display: block;
-  padding: 0.5rem 0;
-  font-family: var(--body-font);
-  text-align: center;
-  font-weight: bold;
-  background: rgba(0, 0, 0, 0.1);
-  border: 1px solid var(--color-border-light-secondary);
-  border-radius: 3px;
-}
-.ferncombe section.window-content a.approval-change::before,
-.adventure-importer a.approval-change::before {
-  font-family: "Font Awesome 6 Pro";
-  content: '\f516';
-  margin: 0 0.25rem;
-}
-/** Adventure Importer */
-.adventure-importer .ferncombe h2.border {
-  margin-top: 0;
-}
-.adventure-importer .ferncombe .adventure-header h1 {
-  display: none;
-}
-.adventure-importer .ferncombe .adventure-banner img {
-  height: auto !important;
-}
-.adventure-importer .ferncombe .adventure-banner figcaption {
-  font-family: var(--body-font);
-  font-weight: normal;
-  font-style: italic;
-  color: var(--manor-ink);
-}
-/** General Styles */
-.ferncombe {
+  /* ----------------------------------------- */
+  /*  General                                  */
+  /* ----------------------------------------- */
   /** Fix Journal Width */
-  /** Pages TOC Section */
-  /** Add additional spacing around the outside */
-  /** Journal Sheet Headers */
-  /** Journal Text Content */
+  /* ----------------------------------------- */
+  /*  ToC                                      */
+  /* ----------------------------------------- */
+  /* ----------------------------------------- */
+  /*  Journal Contents                         */
+  /* ----------------------------------------- */
   /* Restyle Content Links */
-  /* Family Tree */
 }
 .ferncombe.journal-entry {
   max-width: 960px;
   min-width: 960px;
 }
-.ferncombe .pages-list .directory-section {
-  border-top: 1px solid var(--color-border-dark);
-  border-bottom: 1px solid var(--color-border-dark-3);
+.ferncombe form.journal-header {
+  display: none;
 }
-.ferncombe .pages-list .directory-section:first-child {
-  border-top: none;
+.ferncombe#FerncombeJournalSheet-JournalEntry-k5b3J8XntDD4aDgY li.directory-item.level2 {
+  border-top: 1px solid;
+  border-image: linear-gradient(to right, transparent, #ffffff75, transparent) 1;
+  padding-top: 6px;
+  margin-top: 6px;
 }
-.ferncombe .pages-list .section-header {
-  margin: 0.5rem 0;
-  text-align: center;
-  border: none;
+.ferncombe aside.sidebar.directory ol.directory-list.scrollable li.directory-item {
+  font-family: var(--body-font);
+  border: unset;
+}
+.ferncombe aside.sidebar.directory ol.directory-list.scrollable li.directory-item.active span.page-number::after {
+  content: '⮚';
+  visibility: visible;
+}
+.ferncombe aside.sidebar.directory ol.directory-list.scrollable li.directory-item span.page-number {
+  visibility: hidden;
+}
+.ferncombe aside.sidebar.directory ol.directory-list.scrollable li.directory-item ol.headings {
+  display: none;
 }
 .ferncombe .journal-entry-pages {
   margin-top: 1rem;
@@ -293,33 +307,18 @@ h4 .adventure-importer:not(.window-title) {
 .ferncombe .journal-entry-pages .scrollable {
   padding-right: 1rem;
 }
+.ferncombe .journal-entry-pages .scrollable .journal-page-content {
+  font-family: var(--body-font);
+  font-size: var(--body-size);
+  line-height: 1rem;
+  text-align: justify;
+}
 .ferncombe .journal-entry-pages a {
   color: black;
   font-family: var(--body-i);
 }
 .ferncombe .journal-entry-pages a:hover {
   color: var(--manor-red-light);
-}
-.ferncombe .journal-page-header {
-  width: 100%;
-  margin: 0 auto 1rem;
-  background: url(ui/top-left.webp) no-repeat left, url(ui/top-right.webp) no-repeat right;
-  background-size: 49%;
-  background-position: 0 0, 100% 0;
-}
-.ferncombe .journal-page-header h1,
-.ferncombe .journal-page-header h2 {
-  text-align: center;
-  line-height: 50px;
-  padding-top: 20px;
-  border-bottom: 3px solid var(--manor-red-dark);
-  border-radius: 0 0 100px 100px / 0px 10px 75px 75px;
-}
-.ferncombe .journal-page-content {
-  font-family: var(--body-font);
-  font-size: var(--body-size);
-  line-height: 1rem;
-  text-align: justify;
 }
 .ferncombe a.content-link,
 .ferncombe a.inline-roll {
@@ -332,454 +331,3 @@ h4 .adventure-importer:not(.window-title) {
   word-break: break-all;
   font-family: var(--body-i);
 }
-.ferncombe .family-tree {
-  display: grid;
-  padding-bottom: 40px;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 150px 20px;
-  background: url('ui/family-tree-background.webp') no-repeat 50% calc(50% - 20px);
-  background-size: cover;
-}
-.ferncombe .family-tree .member {
-  width: 140px;
-  margin: 0;
-  padding-bottom: 15px;
-  line-height: 35px;
-  text-align: center;
-  background: url('ui/text-frame.webp') no-repeat bottom;
-  background-size: contain;
-}
-.ferncombe .family-tree .member .content-link,
-.ferncombe .family-tree .member .nolink {
-  border: none;
-  font-family: "Great Vibes", serif;
-  font-size: 20px;
-}
-.ferncombe.journal-page-content.handwritten > p {
-  font-family: "Great Vibes", serif;
-  font-size: var(--font-size-20);
-  line-height: 2rem;
-  color: rgba(0, 0, 0, 0.8);
-  font-weight: bold;
-}
-.ferncombe.journal-page-content.handwritten .underline {
-  border-bottom: 2px solid black;
-}
-.ferncombe.journal-page-content.handwritten .annotation {
-  font-family: inherit;
-  font-size: inherit;
-  font-style: italic;
-}
-.ferncombe section.window-content {
-  /* Figures */
-  /** Two-Column Layout */
-  /* Override Visibility of Journal Title Input */
-  /* Asides */
-  /* Box Text Variants */
-}
-.ferncombe section.window-content figure img {
-  border: none;
-}
-.ferncombe section.window-content figure.landscape {
-  margin: 1rem;
-}
-.ferncombe section.window-content figure.portrait {
-  width: 200px;
-}
-.ferncombe section.window-content figure.portrait.right {
-  float: right;
-  margin: 0 0 0 1rem;
-}
-.ferncombe section.window-content .columns figure.portrait {
-  flex: 0 0 200px;
-  margin: 0 0 0 1rem;
-}
-.ferncombe section.window-content form.journal-header {
-  display: none;
-}
-.ferncombe section.window-content aside {
-  border: 1px solid var(--manor);
-}
-.ferncombe section.window-content aside.right {
-  float: right;
-  width: 40%;
-  margin: 0.5rem;
-  padding: 0.25rem;
-  border-radius: 0.25rem;
-  border: 2px solid var(--color-border-dark-tertiary);
-}
-.ferncombe section.window-content aside.left {
-  float: left;
-  margin: 0 1rem 0 0;
-}
-.ferncombe section.window-content aside.audio {
-  float: right;
-  width: 40%;
-  margin: 1rem -1.5rem 1rem 1rem;
-  border-radius: 0.25rem;
-  border: 2px solid var(--manor-purple-dark);
-}
-.ferncombe section.window-content aside.audio::before {
-  font-family: "Font Awesome 6 Pro";
-  content: '\f001';
-  font-size: var(--font-size-24);
-  float: left;
-  margin: 0 0.25rem 0 0;
-  padding: 0.5rem;
-  border-bottom: 2px solid var(--manor-purple-dark);
-  border-right: 2px solid var(--manor-purple-dark);
-  border-radius: 0 0 0.5rem 0;
-}
-.ferncombe section.window-content aside.audio p {
-  padding: 0.5rem;
-}
-.ferncombe section.window-content aside.fvtt {
-  float: right;
-  width: 40%;
-  margin: 1rem -1.5rem 1rem 1rem;
-  border-radius: 0.25rem;
-  border: 2px solid var(--manor-purple-dark);
-}
-.ferncombe section.window-content aside.fvtt::before {
-  font-family: "Font Awesome 6 Pro";
-  content: '\f001';
-  font-size: var(--font-size-24);
-  float: left;
-  margin: 0 0.25rem 0 0;
-  padding: 0.5rem;
-  border-bottom: 2px solid var(--manor-purple-dark);
-  border-right: 2px solid var(--manor-purple-dark);
-  border-radius: 0 0 0.5rem 0;
-}
-.ferncombe section.window-content aside.fvtt p {
-  padding: 0.5rem;
-}
-.ferncombe section.window-content .box-text {
-  margin: 1rem;
-  /** Encounter Header */
-  /** Quest Box Text */
-  /** Macro Box Text */
-  /** Audio Box Text */
-  /** Investigation */
-  /** Traps and Hazards */
-}
-.ferncombe section.window-content .box-text.narrative {
-  font-family: var(--body-i);
-  padding: 0 2rem;
-  background: linear-gradient(90deg, transparent, rgba(175, 128, 39, 0.1) 5% 95%, transparent);
-  border-radius: 1.5rem;
-  margin: 1rem;
-  border-top: 2px solid rgba(64, 64, 64, 0.8);
-  border-bottom: 2px solid rgba(64, 64, 64, 0.8);
-}
-.ferncombe section.window-content .box-text.encounter {
-  background: url(ui/encounter-text.webp) no-repeat;
-  background-position: top;
-  background-size: 100% auto;
-  filter: opacity(0.7) grayscale(1);
-  transition: 0.5s;
-  margin: 0 auto;
-  padding-bottom: 26px;
-  max-width: 610px;
-}
-.ferncombe section.window-content .box-text.encounter:hover {
-  filter: opacity(1) grayscale(0);
-}
-.ferncombe section.window-content .box-text.encounter header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.ferncombe section.window-content .box-text.encounter header img {
-  object-fit: cover;
-  object-position: top;
-  width: 150px;
-  height: 150px;
-  border-radius: 150px;
-  padding: 5px;
-  position: relative;
-  bottom: -50px;
-  border: none;
-  transition: 0.5s;
-}
-.ferncombe section.window-content .box-text.encounter header h2 {
-  visibility: hidden;
-  height: 0;
-  margin: 0;
-  border: none;
-}
-.ferncombe section.window-content .box-text.encounter article {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  letter-spacing: -0.05rem;
-  line-height: 48px;
-  padding: 0 28px;
-}
-.ferncombe section.window-content .box-text.encounter article i {
-  display: none;
-}
-.ferncombe section.window-content .box-text.encounter article .encounter-left,
-.ferncombe section.window-content .box-text.encounter article .encounter-right {
-  margin: 0;
-}
-.ferncombe section.window-content .box-text.quest {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  margin: 1rem 0;
-}
-.ferncombe section.window-content .box-text.quest figure.quest-portrait {
-  flex: 0 0 200px;
-  height: 250px;
-  margin: 0;
-  background: url('ui/quest-portrait-border.webp') repeat-x 0 100%;
-  background-size: 54px;
-  border-left: 6px ridge var(--manor-red-dark-solid);
-  border-top: 2px solid #000;
-  border-right: 6px groove var(--manor-red-dark-solid);
-  border-radius: 100px 100px 0 0;
-}
-.ferncombe section.window-content .box-text.quest figure.quest-portrait img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  object-position: 0 20px;
-  background: linear-gradient(0deg, #111 0%, transparent 60%);
-}
-.ferncombe section.window-content .box-text.quest div.quest-details {
-  flex: 1;
-}
-.ferncombe section.window-content .box-text.quest div.quest-details h4 {
-  margin: 1rem 0 0;
-}
-.ferncombe section.window-content .box-text.quest div.quest-details p {
-  margin: 0.5rem 0;
-}
-.ferncombe section.window-content .box-text.quest .quest-summary {
-  font-style: italic;
-  padding: 0.5rem 1rem;
-  background: linear-gradient(transparent 0%, #d0c8c8 15%, #d0c8c8 85%, transparent 100%);
-  border-left: 2px solid var(--manor-red-dark-solid);
-  border-right: 2px solid var(--manor-red-dark-solid);
-  border-radius: 10px;
-}
-.ferncombe section.window-content .box-text.macro {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 1rem 0;
-  border-right: 3px solid #333;
-  border-left: 3px solid #333;
-}
-.ferncombe section.window-content .box-text.macro:before,
-.ferncombe section.window-content .box-text.macro:after {
-  display: block;
-  flex: 0 0 100%;
-  height: 32px;
-  content: "";
-  background: url('ui/callout-box-border.webp') repeat-x 0 100%;
-  background-size: auto 32px;
-}
-.ferncombe section.window-content .box-text.macro div.macro-icon {
-  flex: 0 0 100px;
-  height: 100px;
-  margin: 0;
-  background: var(--manor-red-dark);
-  mask-image: url('/icons/svg/clockwork.svg');
-  -webkit-mask-image: url('/icons/svg/clockwork.svg');
-  mask-size: cover;
-  -webkit-mask-size: cover;
-  scale: 0.8;
-  opacity: 0.4;
-}
-.ferncombe section.window-content .box-text.macro aside.macro-details {
-  flex: 1;
-  margin: 1rem 1rem 0.5rem;
-}
-.ferncombe section.window-content .box-text.macro aside.macro-details h4 {
-  margin: 0;
-}
-.ferncombe section.window-content .box-text.macro aside.macro-details p {
-  margin: 0.5rem 0;
-}
-.ferncombe section.window-content .box-text.audio {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 1rem 0;
-  border-right: 3px solid #333;
-  border-left: 3px solid #333;
-}
-.ferncombe section.window-content .box-text.audio:before,
-.ferncombe section.window-content .box-text.audio:after {
-  display: block;
-  flex: 0 0 100%;
-  height: 31px;
-  content: "";
-  background: url('ui/audio-callout-border.webp') repeat-x 0 100%;
-  background-size: auto 32px;
-}
-.ferncombe section.window-content .box-text.audio div.audio-icon {
-  flex: 0 0 100px;
-  height: 100px;
-  margin: 0;
-  background: var(--manor-purple-dark);
-  mask-image: url('/icons/svg/sound.svg');
-  -webkit-mask-image: url('/icons/svg/sound.svg');
-  mask-size: cover;
-  -webkit-mask-size: cover;
-  opacity: 0.4;
-}
-.ferncombe section.window-content .box-text.audio .audio-details {
-  flex: 1;
-  margin: 1rem 1rem 0.5rem;
-}
-.ferncombe section.window-content .box-text.audio .audio-details h4 {
-  margin: 0;
-}
-.ferncombe section.window-content .box-text.audio .audio-details p {
-  margin: 0.5rem 0;
-}
-.ferncombe section.window-content .box-text.investigation header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-bottom: 4px double var(--manor-green-darkest);
-}
-.ferncombe section.window-content .box-text.investigation article {
-  background: linear-gradient(rgba(0, 0, 0, 0), var(--manor-green-light));
-  border-left: 2px double var(--manor-green-dark);
-  border-right: 2px double var(--manor-green-dark);
-  border-bottom: 2px double var(--manor-green-dark);
-  border-radius: 0 0 25px 25px;
-  padding: 0.5rem 1rem 0rem 1rem;
-}
-.ferncombe section.window-content .box-text.investigation article h4 {
-  font-size: var(--font-size-16);
-  margin: 0.25rem;
-  border: none;
-  display: flex;
-  clear: both;
-  justify-content: center;
-  align-items: center;
-  white-space: nowrap;
-  color: black;
-}
-.ferncombe section.window-content .box-text.investigation article h4::before {
-  content: "";
-  width: 50%;
-  margin-right: 1rem;
-  border-color: black;
-  border-top: 4px dotted;
-}
-.ferncombe section.window-content .box-text.investigation article h4::after {
-  content: "";
-  width: 50%;
-  margin-left: 1rem;
-  border-color: black;
-  border-top: 4px dotted;
-}
-.ferncombe section.window-content .box-text.hazard header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.ferncombe section.window-content .box-text.hazard header h4 {
-  font-family: var(--h3-font);
-  font-size: var(--h4-size);
-  font-weight: bold;
-  margin: 0;
-  text-transform: uppercase;
-  padding-bottom: 0.15rem;
-}
-.ferncombe section.window-content .box-text.hazard article {
-  background: linear-gradient(transparent 40%, var(--manor-red-dark) 150%);
-  border: 2px double var(--manor-red-dark);
-  border-radius: 0 0 25px 25px;
-  padding: 0 1rem;
-}
-.ferncombe section.window-content .box-text.hazard article p.trigger {
-  font-weight: bold;
-  border-bottom: 1px solid var(--manor-red-dark);
-  padding: 0 0 0.25rem 0;
-}
-#ferncombe-reputation {
-  min-width: 300px;
-}
-#ferncombe-reputation h2 {
-  text-align: center;
-  border: none;
-  margin: 1rem 0 0.25rem 0;
-}
-#ferncombe-reputation h2:first-child {
-  margin-top: 0;
-}
-#ferncombe-reputation .reputation {
-  flex: 0 0 50px;
-  align-items: center;
-  text-align: center;
-  padding: 0.25rem 0.5rem;
-  border-radius: 8px;
-  border: 1px solid var(--border-color);
-}
-#ferncombe-reputation .reputation.shadeward {
-  --border-color: var(--manor-purple-dark);
-  background: var(--manor-parchment-shade);
-}
-#ferncombe-reputation .reputation.feyward {
-  --border-color: var(--manor-orange);
-  background: var(--manor-parchment-fey);
-}
-#ferncombe-reputation .reputation.ruined {
-  --border-color: var(--color-border-light-tertiary);
-  background: var(--color-border-light-secondary);
-}
-#ferncombe-reputation .reputation + .reputation {
-  margin-top: 1rem;
-}
-#ferncombe-reputation .reputation h4 {
-  font-family: "Great Vibes", serif;
-  font-size: 20px;
-  border: none;
-  margin: 0;
-}
-#ferncombe-reputation .reputation h4 a.content-link {
-  border: none;
-  background: none;
-  padding: 0.25rem 0;
-}
-#ferncombe-reputation .reputation button {
-  flex: 0 0 32px;
-  height: 32px;
-  border-color: var(--border-color);
-}
-#ferncombe-reputation .reputation button i {
-  margin: 0;
-}
-#ferncombe-reputation .bar-wrapper {
-  margin: 0 1rem;
-}
-#ferncombe-reputation .bar-container {
-  flex: 0 0 20px;
-  background: #1a1423;
-  border: 2px solid #000;
-  border-radius: 4px;
-}
-#ferncombe-reputation .bar-container .bar {
-  height: 14px;
-  margin: 1px;
-  background: #086b37;
-  border: 1px solid #1fee60;
-  border-radius: 2px;
-}
-#ferncombe-reputation .bar-container.negative .bar {
-  background: #4f050e;
-  border-color: #ff1757;
-}
-/**
-Development rules
-TODO: Everything below this point to be deleted before release
- */

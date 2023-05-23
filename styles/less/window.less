@@ -1,0 +1,87 @@
+.ferncombe {
+
+/* ----------------------------------------- */
+/*  General                                  */
+/* ----------------------------------------- */
+
+  /** Fix Journal Width */
+  &.journal-entry {
+    max-width: 960px;
+    min-width: 960px;
+  }
+
+  // Hide journal headers (Disable if you want to rename them for dev)
+  form.journal-header {
+    display: none;
+  }
+
+/* ----------------------------------------- */
+/*  ToC                                      */
+/* ----------------------------------------- */
+
+  // Create page dividers above all level 1 headers on the locations journal
+  &@{locations-journal} li.directory-item {
+    &.level2 {
+      border-top: 1px solid;
+      border-image: linear-gradient(to right, transparent, #ffffff75, transparent) 1;
+      padding-top: 6px;
+      margin-top: 6px;
+    }
+  }
+    
+  aside.sidebar.directory ol.directory-list.scrollable li.directory-item {
+    font-family: var(--body-font);
+    // Change the active page highlighting from the red bars to a pointer
+    border: unset;
+    &.active {
+      span.page-number::after {
+        content: '⮚';
+        visibility: visible;
+      }
+    }
+    // Hide page numbers
+    span.page-number {
+      visibility: hidden;
+    }
+    // Hide page subheadings
+    ol.headings {
+      display: none;
+    }
+  }
+
+/* ----------------------------------------- */
+/*  Journal Contents                         */
+/* ----------------------------------------- */
+
+  .journal-entry-pages {
+    margin-top: 1rem;
+    .scrollable {
+      padding-right: 1rem;
+      .journal-page-content {
+        font-family: var(--body-font);
+        font-size: var(--body-size);
+        line-height: 1rem;
+        text-align: justify;
+      }
+    }
+    a {
+      color: black;
+      font-family: var(--body-i);
+      &:hover {
+        color: var(--manor-red-light);
+      }
+    }
+  }
+
+  /* Restyle Content Links */
+  a.content-link, a.inline-roll {
+    border: none; //reset border settings
+    background: unset; //clear background
+    padding: 0 4px;
+    border-bottom: 1px solid var(--color-border-dark-tertiary);
+    border-radius: 2px;
+    white-space: nowrap;
+    word-break: break-all;
+    font-family: var(--body-i);
+  }
+}
