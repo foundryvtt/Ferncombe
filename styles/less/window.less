@@ -19,16 +19,6 @@
 /*  ToC                                      */
 /* ----------------------------------------- */
 
-  // Create page dividers above all level 1 headers on the locations journal
-  &@{locations-journal} li.directory-item {
-    &.level2 {
-      border-top: 1px solid;
-      border-image: linear-gradient(to right, transparent, #ffffff75, transparent) 1;
-      padding-top: 6px;
-      margin-top: 6px;
-    }
-  }
-    
   aside.sidebar.directory ol.directory-list.scrollable li.directory-item {
     font-family: var(--body-font);
     // Change the active page highlighting from the red bars to a pointer
@@ -47,6 +37,14 @@
     ol.headings {
       display: none;
     }
+    // Create page dividers above all level 1 headers
+    &:not(:first-child) {
+      &.level1 {
+        border-top: 2px solid;
+        border-image: linear-gradient(to right, transparent 10%, #ffffff70, transparent 90%) 1;        padding-top: 6px;
+        margin-top: 6px;
+      }
+    }  
   }
 
 /* ----------------------------------------- */

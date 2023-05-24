@@ -37,6 +37,12 @@
     &::after { border-top: 4px dotted; }
   }
 
+  h4:not(.window-title) {
+    font-size: var(--h3-size);
+    font-family: var(--h1-font);
+    border: unset;
+  }
+
   // Apply fancy borders to some headers
   section.journal-page-content, section.adventure-overview, section.adventure-contents {
     h2, h3 {
@@ -95,8 +101,17 @@
     /** Tables */
     table {
       table-layout: fixed;
+      margin: auto;
+      width: 80%;
+      caption {
+        padding-bottom: 0.5rem;
+        font-family: var(--h1-font);
+        font-size: var(--h4-size);
+      }
       th, td {
-        padding: 0.5rem;
+        padding: 0.5rem 0;
+        text-align: center;
+        width: 30%;
       }
     }
 
@@ -137,6 +152,47 @@
         margin: 1rem;
         border-top: 2px solid rgba(64, 64, 64, 0.8);
         border-bottom: 2px solid rgba(64, 64, 64, 0.8);
+      }
+    }
+
+    .secret {
+      button {
+        float: left;
+        position: absolute;
+        line-height: 20px;
+        margin-top: 0.75rem;
+        }
+      h4 {
+        text-align: center;
+      }
+    }
+
+    dl {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+      line-height: 1rem;    
+      width: 80%;
+      margin: auto;
+      p {
+        margin: 0.25rem 0.5rem;
+      }
+      dt {
+        flex-basis: 50%;
+      }
+      dd {
+        flex-basis: 50%;
+        text-align: right;
+      }
+      dt:nth-of-type(odd), dd:nth-of-type(odd) {
+        background-color: rgba(0, 0, 0, 0.05);
+      }
+      &>p {
+        flex-basis: 100%;
+        margin: 0.5rem;
+        text-align: center;
       }
     }
   }
