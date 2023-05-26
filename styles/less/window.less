@@ -27,15 +27,21 @@
       span.page-number::after {
         content: '⮚';
         visibility: visible;
+        width: inherit;
+        display: block;
+        position: absolute;
       }
-    }
-    // Hide page numbers
-    span.page-number {
-      visibility: hidden;
     }
     // Hide page subheadings
     ol.headings {
       display: none;
+    }
+  }
+  // Rules to apply only if the sidebar is expanded
+  aside.sidebar.directory aside:not(.collapsed) ol.directory-list.scrollable li.directory-item {
+    // Hide page numbers
+    span.page-number {
+      visibility: hidden;
     }
     // Create page dividers above all level 1 headers
     &:not(:first-child) {

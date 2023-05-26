@@ -117,26 +117,25 @@
 
     /** Two-Column Layout */
     .columns {
+      display: "flex"; 
       figure.portrait {
         flex: 0 0 200px;
-        margin: 0 0 0 1rem;
+        margin: 0 0.2rem 0 1.2rem;
       }
     }
 
     /* Figures */
     figure {
+      display: flex;
       img {
         border: none;
+        border-radius: 10px;
       }
-      &.landscape{
-        margin: 1rem;
-      }
-      &.portrait{
-        width: 200px;
-        &.right {
-          float: right;
-          margin: 0 0 0 1rem;
-        }
+      figcaption {
+        font-size: var(--h3-size);
+        font-family: var(--h3-font);
+        font-weight: bold;
+        border: unset;
       }
     }
 
