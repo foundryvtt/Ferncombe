@@ -5,6 +5,7 @@
   /* ----------------------------------------- */
 
   p {
+    text-align: justify;
     margin: 1rem 0;
     font-family: var(--body-font);
     &.important {
@@ -52,18 +53,18 @@
       justify-content: center;
       align-items: center;
       white-space: nowrap;
-      color: var(--manor-red-dark);
+      color: var(--ferncombe-green);
       &::before {
         content: "";
         width: 50%;
         margin-right: 1rem;
-        border-color: var(--manor-red-dark);
+        border-color: var(--ferncombe-green);
       }
       &::after {
         content: "";
         width: 50%;
         margin-left: 1rem;
-        border-color: var(--manor-red-dark);
+        border-color: var(--ferncombe-green);
       }
     }
   }
@@ -79,7 +80,7 @@
       text-align: center;
       line-height: 50px;
       padding-top: 20px;
-      border-bottom: 3px solid var(--manor-red-dark);
+      border-bottom: 3px solid var(--ferncombe-green);
       border-radius: 0 0 100px 100px / 0px 10px 75px 75px;
     }
   }
@@ -179,10 +180,10 @@
         margin: 0.25rem 0.5rem;
       }
       dt {
-        flex-basis: 50%;
+        flex-basis: 70%;
       }
       dd {
-        flex-basis: 50%;
+        flex-basis: 30%;
         text-align: right;
       }
       dt:nth-of-type(odd), dd:nth-of-type(odd) {
@@ -193,6 +194,15 @@
         margin: 0.5rem;
         text-align: center;
       }
+    }
+
+    h4.amenities {
+      width: 80%;
+      margin: initial auto;
+      text-align: center;
+      font-size: var(--h4-size);
+      &::before { border-top: 6px double ; }
+      &::after { border-top: 6px double; }
     }
   }
 }

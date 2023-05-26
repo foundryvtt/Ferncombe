@@ -9,6 +9,7 @@
 }
 .ferncombe.journal-sheet p,
 #AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv p {
+  text-align: justify;
   margin: 1rem 0;
   font-family: var(--body-font);
 }
@@ -77,7 +78,7 @@
   justify-content: center;
   align-items: center;
   white-space: nowrap;
-  color: var(--manor-red-dark);
+  color: var(--ferncombe-green);
 }
 .ferncombe.journal-sheet section.journal-page-content h2::before,
 #AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content h2::before,
@@ -94,7 +95,7 @@
   content: "";
   width: 50%;
   margin-right: 1rem;
-  border-color: var(--manor-red-dark);
+  border-color: var(--ferncombe-green);
 }
 .ferncombe.journal-sheet section.journal-page-content h2::after,
 #AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content h2::after,
@@ -111,7 +112,7 @@
   content: "";
   width: 50%;
   margin-left: 1rem;
-  border-color: var(--manor-red-dark);
+  border-color: var(--ferncombe-green);
 }
 .ferncombe.journal-sheet .journal-page-header,
 #AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv .journal-page-header,
@@ -138,7 +139,7 @@
   text-align: center;
   line-height: 50px;
   padding-top: 20px;
-  border-bottom: 3px solid var(--manor-red-dark);
+  border-bottom: 3px solid var(--ferncombe-green);
   border-radius: 0 0 100px 100px / 0px 10px 75px 75px;
 }
 .ferncombe.journal-sheet section.journal-page-content,
@@ -243,11 +244,11 @@
 }
 .ferncombe.journal-sheet section.journal-page-content dl dt,
 #AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content dl dt {
-  flex-basis: 50%;
+  flex-basis: 70%;
 }
 .ferncombe.journal-sheet section.journal-page-content dl dd,
 #AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content dl dd {
-  flex-basis: 50%;
+  flex-basis: 30%;
   text-align: right;
 }
 .ferncombe.journal-sheet section.journal-page-content dl dt:nth-of-type(odd),
@@ -261,6 +262,21 @@
   flex-basis: 100%;
   margin: 0.5rem;
   text-align: center;
+}
+.ferncombe.journal-sheet section.journal-page-content h4.amenities,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content h4.amenities {
+  width: 80%;
+  margin: initial auto;
+  text-align: center;
+  font-size: var(--h4-size);
+}
+.ferncombe.journal-sheet section.journal-page-content h4.amenities::before,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content h4.amenities::before {
+  border-top: 6px double ;
+}
+.ferncombe.journal-sheet section.journal-page-content h4.amenities::after,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content h4.amenities::after {
+  border-top: 6px double;
 }
 /* ----------------------------------------- */
 /*  Variable Definitions                     */
@@ -279,6 +295,8 @@
   --h2-size: var(--font-size-20);
   --h3-size: var(--font-size-20);
   --h4-size: var(--font-size-18);
+  --color-text-dark-primary: #000000;
+  --ferncombe-green: #395b34;
 }
 /* ----------------------------------------- */
 /*  Fonts                                    */
@@ -379,7 +397,7 @@
   border: none;
   background: unset;
   padding: 0 4px;
-  border-bottom: 1px solid var(--color-border-dark-tertiary);
+  border-bottom: 1px solid var(--ferncombe-green);
   border-radius: 2px;
   white-space: nowrap;
   word-break: break-all;
