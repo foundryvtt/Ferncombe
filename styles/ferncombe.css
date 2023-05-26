@@ -178,7 +178,7 @@
 }
 .ferncombe.journal-sheet section.journal-page-content .columns,
 #AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content .columns {
-  display: "flex";
+  display: flex;
 }
 .ferncombe.journal-sheet section.journal-page-content .columns figure.portrait,
 #AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content .columns figure.portrait {
@@ -346,10 +346,10 @@
 .ferncombe aside.sidebar.directory ol.directory-list.scrollable li.directory-item ol.headings {
   display: none;
 }
-.ferncombe aside.sidebar.directory aside:not(.collapsed) ol.directory-list.scrollable li.directory-item span.page-number {
+.ferncombe aside.sidebar.directory:not(.collapsed) ol.directory-list.scrollable li.directory-item span.page-number {
   visibility: hidden;
 }
-.ferncombe aside.sidebar.directory aside:not(.collapsed) ol.directory-list.scrollable li.directory-item:not(:first-child).level1 {
+.ferncombe aside.sidebar.directory:not(.collapsed) ol.directory-list.scrollable li.directory-item:not(:first-child).level1 {
   border-top: 2px solid;
   border-image: linear-gradient(to right, transparent 10%, #ffffff70, transparent 90%) 1;
   padding-top: 6px;
