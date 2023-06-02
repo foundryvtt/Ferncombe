@@ -1,7 +1,7 @@
 {
     "id": "ferncombe",
-    "title": "The Township of Ferncombe",
-    "description": "The humble township of Ferncombe is a quaint farming and fishing community, a pastoral and serene home away from home.",
+    "title": "The Town of Ferncombe",
+    "description": "The humble town of Ferncombe is a quaint farming and fishing community, a pastoral and serene home away from home.",
     "version": "0.1.0",
     "authors": [
         {
@@ -36,8 +36,16 @@
             "label": "Ferncombe",
             "path": "packs/ferncombe.db",
             "type": "Adventure",
+            "banner": "/modules/ferncombe/assets/ferncombe-pack-banner.webp",
             "private": false,
             "flags": {}
+        }
+    ],
+    "media": [
+        {
+            "type": "setup",
+            "caption": "Ferncombe",
+            "thumbnail": "modules/ferncombe/assets/ferncombe-banner.webp"
         }
     ],
     "relationships": {
