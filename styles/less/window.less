@@ -19,11 +19,9 @@
 /*  ToC                                      */
 /* ----------------------------------------- */
 
-  aside.sidebar.directory ol.directory-list.scrollable li.directory-item {
-    font-family: var(--body-font);
+  aside.sidebar.directory ol.directory-list.scrollable {
     // Change the active page highlighting from the red bars to a pointer
-    border: unset;
-    &.active:first-of-type {
+    .active:first-of-type {
       span.page-number::before {
         content: '⮚';
         visibility: visible;
@@ -32,9 +30,13 @@
         position: absolute;
       }
     }
-    // Hide page subheadings
-    ol.headings {
-      display: none;
+    li.directory-item {
+      font-family: var(--body-font);
+      border: unset;
+      // Hide page subheadings
+      ol.headings {
+        display: none;
+      }
     }
   }
   // Rules to apply only if the sidebar is expanded

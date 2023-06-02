@@ -250,6 +250,9 @@
 .ferncombe.journal-sheet section.journal-page-content dl dd,
 #AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content dl dd {
   flex-basis: 30%;
+}
+.ferncombe.journal-sheet section.journal-page-content dl dd p,
+#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content dl dd p {
   text-align: right;
 }
 .ferncombe.journal-sheet section.journal-page-content dl dt:nth-of-type(odd),
@@ -266,7 +269,6 @@
 }
 .ferncombe.journal-sheet section.journal-page-content h4.amenities,
 #AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content h4.amenities {
-  width: 80%;
   margin: initial auto;
   text-align: center;
   font-size: var(--h4-size);
@@ -351,16 +353,16 @@
 .ferncombe form.journal-header {
   display: none;
 }
-.ferncombe aside.sidebar.directory ol.directory-list.scrollable li.directory-item {
-  font-family: var(--body-font);
-  border: unset;
-}
-.ferncombe aside.sidebar.directory ol.directory-list.scrollable li.directory-item.active:first-of-type span.page-number::before {
+.ferncombe aside.sidebar.directory ol.directory-list.scrollable .active:first-of-type span.page-number::before {
   content: '⮚';
   visibility: visible;
   width: inherit;
   display: block;
   position: absolute;
+}
+.ferncombe aside.sidebar.directory ol.directory-list.scrollable li.directory-item {
+  font-family: var(--body-font);
+  border: unset;
 }
 .ferncombe aside.sidebar.directory ol.directory-list.scrollable li.directory-item ol.headings {
   display: none;
