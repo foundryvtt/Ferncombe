@@ -1,6 +1,8 @@
 # Ferncombe
 The humble township of Ferncombe is a quaint farming and fishing community, a pastoral and serene home away from home.
 
+![](./assets/ferncombe-banner.webp)
+
 ## Credits
 ### Concept and Writing
 
