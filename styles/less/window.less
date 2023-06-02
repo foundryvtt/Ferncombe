@@ -23,7 +23,7 @@
     font-family: var(--body-font);
     // Change the active page highlighting from the red bars to a pointer
     border: unset;
-    &.active {
+    &.active:first-of-type {
       span.page-number::after {
         content: '⮚';
         visibility: visible;
