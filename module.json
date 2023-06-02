@@ -51,5 +51,9 @@
     "relationships": {
     },
     "protected": false,
-    "manifest": ""
+    "license": "LICENSE",
+    "readme": "README.md",
+    "url": "#{URL}#",
+    "manifest": "#{MANIFEST}#",
+    "download": "#{DOWNLOAD}#"
 }
