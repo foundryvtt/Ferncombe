@@ -3,6 +3,17 @@ The humble township of Ferncombe is a quaint farming and fishing community, a pa
 
 ![](./assets/ferncombe-banner.webp)
 
+# What is Ferncombe?
+
+Ferncombe is a quiet and peaceful town, full of character and charm. Created and delivered by the team behind A House Divided, Ferncombe is intentionally designed to fit seamlessly into just about any fantasy setting, making it an easy addition to an existing campaign or the perfect starting point for a new one!
+
+## Features
+* A small settlement with a rich and colorful history, detailed throughout a series of journals
+* Contains detailed guidance on roleplaying Ferncombe's residents, with biographies, personalities, and more!
+* Original portraits for nine prominent NPCs
+* Descriptions of the town's shops and businesses
+* Exquisite and high-resolution artwork of the town
+
 ## Credits
 ### Concept and Writing
 
