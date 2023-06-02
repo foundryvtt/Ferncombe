@@ -1,5 +1,5 @@
 .ferncombe.journal-sheet,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv {
   /* ----------------------------------------- */
   /*  Typography                               */
   /* ----------------------------------------- */
@@ -8,70 +8,70 @@
   /* ----------------------------------------- */
 }
 .ferncombe.journal-sheet p,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv p {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv p {
   text-align: justify;
   margin: 1rem 0;
   font-family: var(--body-font);
 }
 .ferncombe.journal-sheet p.important,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv p.important {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv p.important {
   text-align: center;
   font-weight: bold;
   font-size: var(--body-size);
   line-height: 1rem;
 }
 .ferncombe.journal-sheet h1,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv h1 {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv h1 {
   font-family: var(--h1-font);
   font-size: var(--h1-size);
 }
 .ferncombe.journal-sheet h2,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv h2 {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv h2 {
   font-size: var(--h2-size);
   font-family: var(--h2-font);
   font-weight: bold;
 }
 .ferncombe.journal-sheet h2::before,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv h2::before {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv h2::before {
   border-top: 6px double ;
 }
 .ferncombe.journal-sheet h2::after,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv h2::after {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv h2::after {
   border-top: 6px double;
 }
 .ferncombe.journal-sheet h3,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv h3 {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv h3 {
   font-size: var(--h3-size);
   font-family: var(--h3-font);
   font-weight: bold;
   border: unset;
 }
 .ferncombe.journal-sheet h3::before,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv h3::before {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv h3::before {
   border-top: 4px dotted;
 }
 .ferncombe.journal-sheet h3::after,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv h3::after {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv h3::after {
   border-top: 4px dotted;
 }
 .ferncombe.journal-sheet h4:not(.window-title),
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv h4:not(.window-title) {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv h4:not(.window-title) {
   font-size: var(--h3-size);
   font-family: var(--h1-font);
   border: unset;
 }
 .ferncombe.journal-sheet section.journal-page-content h2,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content h2,
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content h2,
 .ferncombe.journal-sheet section.adventure-overview h2,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.adventure-overview h2,
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.adventure-overview h2,
 .ferncombe.journal-sheet section.adventure-contents h2,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.adventure-contents h2,
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.adventure-contents h2,
 .ferncombe.journal-sheet section.journal-page-content h3,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content h3,
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content h3,
 .ferncombe.journal-sheet section.adventure-overview h3,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.adventure-overview h3,
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.adventure-overview h3,
 .ferncombe.journal-sheet section.adventure-contents h3,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.adventure-contents h3 {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.adventure-contents h3 {
   border: none;
   display: flex;
   clear: both;
@@ -81,43 +81,43 @@
   color: var(--ferncombe-green);
 }
 .ferncombe.journal-sheet section.journal-page-content h2::before,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content h2::before,
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content h2::before,
 .ferncombe.journal-sheet section.adventure-overview h2::before,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.adventure-overview h2::before,
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.adventure-overview h2::before,
 .ferncombe.journal-sheet section.adventure-contents h2::before,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.adventure-contents h2::before,
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.adventure-contents h2::before,
 .ferncombe.journal-sheet section.journal-page-content h3::before,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content h3::before,
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content h3::before,
 .ferncombe.journal-sheet section.adventure-overview h3::before,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.adventure-overview h3::before,
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.adventure-overview h3::before,
 .ferncombe.journal-sheet section.adventure-contents h3::before,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.adventure-contents h3::before {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.adventure-contents h3::before {
   content: "";
   width: 50%;
   margin-right: 1rem;
   border-color: var(--ferncombe-green);
 }
 .ferncombe.journal-sheet section.journal-page-content h2::after,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content h2::after,
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content h2::after,
 .ferncombe.journal-sheet section.adventure-overview h2::after,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.adventure-overview h2::after,
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.adventure-overview h2::after,
 .ferncombe.journal-sheet section.adventure-contents h2::after,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.adventure-contents h2::after,
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.adventure-contents h2::after,
 .ferncombe.journal-sheet section.journal-page-content h3::after,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content h3::after,
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content h3::after,
 .ferncombe.journal-sheet section.adventure-overview h3::after,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.adventure-overview h3::after,
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.adventure-overview h3::after,
 .ferncombe.journal-sheet section.adventure-contents h3::after,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.adventure-contents h3::after {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.adventure-contents h3::after {
   content: "";
   width: 50%;
   margin-left: 1rem;
   border-color: var(--ferncombe-green);
 }
 .ferncombe.journal-sheet .journal-page-header,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv .journal-page-header,
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv .journal-page-header,
 .ferncombe.journal-sheet .adventure-header,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv .adventure-header {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv .adventure-header {
   width: 100%;
   margin: 0 auto 1rem;
   background: url(ui/top-left.webp) no-repeat left, url(ui/top-right.webp) no-repeat right;
@@ -125,17 +125,17 @@
   background-position: 0 0, 100% 0;
 }
 .ferncombe.journal-sheet .journal-page-header h1,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv .journal-page-header h1,
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv .journal-page-header h1,
 .ferncombe.journal-sheet .adventure-header h1,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv .adventure-header h1,
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv .adventure-header h1,
 .ferncombe.journal-sheet .journal-page-header h2,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv .journal-page-header h2,
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv .journal-page-header h2,
 .ferncombe.journal-sheet .adventure-header h2,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv .adventure-header h2,
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv .adventure-header h2,
 .ferncombe.journal-sheet .journal-page-header h3,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv .journal-page-header h3,
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv .journal-page-header h3,
 .ferncombe.journal-sheet .adventure-header h3,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv .adventure-header h3 {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv .adventure-header h3 {
   text-align: center;
   line-height: 50px;
   padding-top: 20px;
@@ -143,72 +143,72 @@
   border-radius: 0 0 100px 100px / 0px 10px 75px 75px;
 }
 .ferncombe.journal-sheet section.journal-page-content,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content {
   /** Tables */
   /** Two-Column Layout */
   /* Figures */
   /* Box Text Variants */
 }
 .ferncombe.journal-sheet section.journal-page-content h2,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content h2 {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content h2 {
   margin-top: 2rem;
 }
 .ferncombe.journal-sheet section.journal-page-content h3,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content h3 {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content h3 {
   margin-top: 1rem;
 }
 .ferncombe.journal-sheet section.journal-page-content table,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content table {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content table {
   table-layout: fixed;
   margin: auto;
   width: 80%;
 }
 .ferncombe.journal-sheet section.journal-page-content table caption,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content table caption {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content table caption {
   padding-bottom: 0.5rem;
   font-family: var(--h1-font);
   font-size: var(--h4-size);
 }
 .ferncombe.journal-sheet section.journal-page-content table th,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content table th,
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content table th,
 .ferncombe.journal-sheet section.journal-page-content table td,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content table td {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content table td {
   padding: 0.5rem 0;
   text-align: center;
   width: 30%;
 }
 .ferncombe.journal-sheet section.journal-page-content .columns,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content .columns {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content .columns {
   display: flex;
 }
 .ferncombe.journal-sheet section.journal-page-content .columns figure.portrait,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content .columns figure.portrait {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content .columns figure.portrait {
   max-height: 200px;
   flex: 0 0 200px;
   margin: 0 0.2rem 0 1.2rem;
 }
 .ferncombe.journal-sheet section.journal-page-content figure,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content figure {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content figure {
   display: flex;
 }
 .ferncombe.journal-sheet section.journal-page-content figure img,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content figure img {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content figure img {
   border: none;
   border-radius: 10px;
 }
 .ferncombe.journal-sheet section.journal-page-content figure figcaption,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content figure figcaption {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content figure figcaption {
   font-size: var(--h3-size);
   font-family: var(--h3-font);
   font-weight: bold;
   border: unset;
 }
 .ferncombe.journal-sheet section.journal-page-content .box-text,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content .box-text {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content .box-text {
   margin: 1rem;
 }
 .ferncombe.journal-sheet section.journal-page-content .box-text.narrative,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content .box-text.narrative {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content .box-text.narrative {
   font-family: var(--body-i);
   padding: 0 2rem;
   background: linear-gradient(90deg, transparent, rgba(175, 128, 39, 0.1) 5% 95%, transparent);
@@ -218,18 +218,18 @@
   border-bottom: 2px solid rgba(64, 64, 64, 0.8);
 }
 .ferncombe.journal-sheet section.journal-page-content .secret button,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content .secret button {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content .secret button {
   float: left;
   position: absolute;
   line-height: 20px;
   margin-top: 0.75rem;
 }
 .ferncombe.journal-sheet section.journal-page-content .secret h4,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content .secret h4 {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content .secret h4 {
   text-align: center;
 }
 .ferncombe.journal-sheet section.journal-page-content dl,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content dl {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content dl {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -240,52 +240,52 @@
   margin: auto;
 }
 .ferncombe.journal-sheet section.journal-page-content dl p,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content dl p {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content dl p {
   margin: 0.25rem 0.5rem;
 }
 .ferncombe.journal-sheet section.journal-page-content dl dt,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content dl dt {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content dl dt {
   flex-basis: 70%;
 }
 .ferncombe.journal-sheet section.journal-page-content dl dd,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content dl dd {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content dl dd {
   flex-basis: 30%;
 }
 .ferncombe.journal-sheet section.journal-page-content dl dd p,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content dl dd p {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content dl dd p {
   text-align: right;
 }
 .ferncombe.journal-sheet section.journal-page-content dl dt:nth-of-type(odd),
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content dl dt:nth-of-type(odd),
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content dl dt:nth-of-type(odd),
 .ferncombe.journal-sheet section.journal-page-content dl dd:nth-of-type(odd),
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content dl dd:nth-of-type(odd) {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content dl dd:nth-of-type(odd) {
   background-color: rgba(0, 0, 0, 0.05);
 }
 .ferncombe.journal-sheet section.journal-page-content dl > p,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content dl > p {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content dl > p {
   flex-basis: 100%;
   margin: 0.5rem;
   text-align: center;
 }
 .ferncombe.journal-sheet section.journal-page-content h4.amenities,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content h4.amenities {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content h4.amenities {
   margin: initial auto;
   text-align: center;
   font-size: var(--h4-size);
 }
 .ferncombe.journal-sheet section.journal-page-content h4.amenities::before,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content h4.amenities::before {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content h4.amenities::before {
   border-top: 6px double ;
 }
 .ferncombe.journal-sheet section.journal-page-content h4.amenities::after,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content h4.amenities::after {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv section.journal-page-content h4.amenities::after {
   border-top: 6px double;
 }
 /* ----------------------------------------- */
 /*  Variable Definitions                     */
 /* ----------------------------------------- */
 .ferncombe,
-#AdventureImporter-Compendium-ferncombe-Ferncombe-Adventure-3SLlEPjBKIvmVqsv {
+#AdventureImporter-Compendium-ferncombe-ferncombe-Adventure-3SLlEPjBKIvmVqsv {
   --body-font: "Sabon LT", sans-serif;
   --body-b: "Sabon LT Bold", sans-serif;
   --body-i: "Sabon LT Italic", sans-serif;
