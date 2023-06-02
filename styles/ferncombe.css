@@ -355,7 +355,7 @@
   font-family: var(--body-font);
   border: unset;
 }
-.ferncombe aside.sidebar.directory ol.directory-list.scrollable li.directory-item.active:first-of-type span.page-number::after {
+.ferncombe aside.sidebar.directory ol.directory-list.scrollable li.directory-item.active:first-of-type span.page-number::before {
   content: '⮚';
   visibility: visible;
   width: inherit;
