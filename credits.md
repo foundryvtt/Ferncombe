@@ -16,4 +16,4 @@ It was adapted for this standalone module by Viviane Charlier
 
 ### Special thanks
 
-Cody Svendrowski for helping to dredge Ferncombe from the cutting room floor
+Cody Swendrowski for helping to dredge Ferncombe from the cutting room floor
