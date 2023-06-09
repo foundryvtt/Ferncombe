@@ -28,8 +28,10 @@
     "scripts": [],
     "esmodules": ["./js/ferncombe.mjs"],
     "styles": ["./styles/ferncombe.css"],
-    "minimumCoreVersion": "11",
-    "compatibleCoreVersion": "11",
+    "compatibility": {
+        "minimum": "11",
+        "verified": "11"
+    },
     "packs": [
         {
             "name": "ferncombe",
