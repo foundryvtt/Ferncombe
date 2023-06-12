@@ -21,13 +21,19 @@
 
   aside.sidebar.directory ol.directory-list.scrollable {
     // Change the active page highlighting from the red bars to a pointer
-    .active:first-of-type {
-      span.page-number::before {
+    .active {
+      .page-number::before {
         content: '⮚';
+        color: white;
         visibility: visible;
         width: inherit;
         display: block;
         position: absolute;
+      }
+    }
+    .active + .active {
+      span.page-number {
+        background-image: unset;
       }
     }
     li.directory-item {
@@ -35,8 +41,7 @@
       border: unset;
       // Hide page subheadings
       ol.headings {
-        display: none;
-      }
+        display: none;}
     }
   }
   // Rules to apply only if the sidebar is expanded
