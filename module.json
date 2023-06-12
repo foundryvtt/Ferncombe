@@ -2,7 +2,7 @@
     "id": "ferncombe",
     "title": "The Town of Ferncombe",
     "description": "The humble town of Ferncombe is a quaint farming and fishing community, a pastoral and serene home away from home.",
-    "version": "0.1.0",
+    "version": "#{VERSION}#",
     "authors": [
         {
             "name": "Roman Trevisanut",
@@ -28,8 +28,10 @@
     "scripts": [],
     "esmodules": ["./js/ferncombe.mjs"],
     "styles": ["./styles/ferncombe.css"],
-    "minimumCoreVersion": "11",
-    "compatibleCoreVersion": "11",
+    "compatibility": {
+        "minimum": "11",
+        "verified": "11"
+    },
     "packs": [
         {
             "name": "ferncombe",
@@ -51,5 +53,9 @@
     "relationships": {
     },
     "protected": false,
-    "manifest": ""
+    "license": "LICENSE",
+    "readme": "README.md",
+    "url": "#{URL}#",
+    "manifest": "#{MANIFEST}#",
+    "download": "#{DOWNLOAD}#"
 }
