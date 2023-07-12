@@ -50,7 +50,7 @@ Hooks.on("renderJournalPageSheet", (app, html, options) => {
 
   // Apply handwritten styles
   if ( doc.getFlag("ferncombe", "handwritten") ) html.addClass("handwritten");
-  
+
 });
 
 
@@ -59,13 +59,15 @@ Hooks.on("renderJournalPageSheet", (app, html, options) => {
 /* -------------------------------------------- */
 
 Hooks.on("preCreateJournalEntry", (doc, data, options, userId) => {
-  doc.data.update({
-    flags: {
-      core: {
-        sheetClass: "ferncombe.FerncombeJournalSheet"
+  if(!(data.flags && data.flags.core && data.flags.core.sheetClass)){
+    doc.data.update({
+      flags: {
+        core: {
+          sheetClass: "ferncombe.FerncombeJournalSheet"
+        }
       }
-    }
-  })
+    });
+  }
 });
 
 Hooks.on("preCreateJournalEntryPage", (doc, data, options, userId) => {
