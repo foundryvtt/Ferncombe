@@ -52,28 +52,3 @@ Hooks.on("renderJournalPageSheet", (app, html, options) => {
   if ( doc.getFlag("ferncombe", "handwritten") ) html.addClass("handwritten");
   
 });
-
-
-/* -------------------------------------------- */
-/*  DEVELOPMENT TOOLS BELOW                     */
-/* -------------------------------------------- */
-
-Hooks.on("preCreateJournalEntry", (doc, data, options, userId) => {
-  doc.data.update({
-    flags: {
-      core: {
-        sheetClass: "ferncombe.FerncombeJournalSheet"
-      }
-    }
-  })
-});
-
-Hooks.on("preCreateJournalEntryPage", (doc, data, options, userId) => {
-  doc.data.update({
-    flags: {
-      core: {
-        sheetClass: "ferncombe.FerncombeJournalSheet"
-      }
-    }
-  })
-});
