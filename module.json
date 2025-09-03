@@ -1,61 +1,73 @@
 {
-    "id": "ferncombe",
-    "title": "The Town of Ferncombe",
-    "description": "The humble town of Ferncombe is a quaint farming and fishing community, a pastoral and serene home away from home.",
-    "version": "#{VERSION}#",
-    "authors": [
-        {
-            "name": "Roman Trevisanut",
-            "discord": "Cobalt#7779"
-        },
-        {
-            "name": "Shane Martland",
-            "discord": "Anathema#3668"
-        },
-        {
-            "name": "Viviane Charlier",
-            "discord": "Cora#0642"
-        },
-        {
-            "name": "Drew Smith",
-            "discord": "Drewzelle#1628"
-        },
-        {
-            "name": "Cody Swendrowski",
-            "discord": "cswendrowski#9701"
-        }
-    ],
-    "scripts": [],
-    "esmodules": ["./js/ferncombe.mjs"],
-    "styles": ["./styles/ferncombe.css"],
-    "compatibility": {
-        "minimum": "11",
-        "verified": "11"
+  "id": "ferncombe",
+  "title": "The Town of Ferncombe",
+  "description": "<p>The humble town of Ferncombe is a quaint farming and fishing community, a pastoral and serene home away from home.</p>",
+  "version": "1.1.0",
+  "authors": [
+    {
+      "name": "Roman Trevisanut",
+      "discord": "Cobalt#7779",
+      "flags": {}
     },
-    "packs": [
-        {
-            "name": "ferncombe",
-            "label": "Ferncombe",
-            "path": "packs/ferncombe.db",
-            "type": "Adventure",
-            "banner": "/modules/ferncombe/assets/ferncombe-pack-banner.webp",
-            "private": false,
-            "flags": {}
-        }
-    ],
-    "media": [
-        {
-            "type": "setup",
-            "caption": "Ferncombe",
-            "thumbnail": "modules/ferncombe/assets/ferncombe-banner.webp"
-        }
-    ],
-    "relationships": {
+    {
+      "name": "Shane Martland",
+      "discord": "Anathema#3668",
+      "flags": {}
     },
-    "protected": false,
-    "license": "LICENSE",
-    "readme": "README.md",
-    "url": "#{URL}#",
-    "manifest": "#{MANIFEST}#",
-    "download": "#{DOWNLOAD}#"
+    {
+      "name": "Viviane Charlier",
+      "discord": "Cora#0642",
+      "flags": {}
+    },
+    {
+      "name": "Drew Smith",
+      "discord": "Drewzelle#1628",
+      "flags": {}
+    },
+    {
+      "name": "Cody Swendrowski",
+      "discord": "cswendrowski#9701",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "js/ferncombe.mjs"
+  ],
+  "styles": [
+    {
+      "src": "styles/ferncombe.css"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "packs": [
+    {
+      "name": "ferncombe",
+      "label": "Ferncombe",
+      "banner": "/modules/ferncombe/assets/ferncombe-pack-banner.webp",
+      "path": "packs/ferncombe",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "caption": "Ferncombe",
+      "thumbnail": "modules/ferncombe/assets/ferncombe-banner.webp",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "license": "LICENSE",
+  "readme": "README.md",
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "flags": {}
 }
