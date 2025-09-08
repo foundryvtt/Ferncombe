@@ -64,10 +64,6 @@
       "flags": {}
     }
   ],
-  "license": "LICENSE",
-  "readme": "README.md",
-  "url": "#{URL}#",
-  "manifest": "#{MANIFEST}#",
-  "download": "#{DOWNLOAD}#",
-  "flags": {}
+  "manifest": "https://r2.foundryvtt.com/packages-public/ferncombe/module.json",
+  "download": "https://r2.foundryvtt.com/packages-public/ferncombe/ferncombe-1.1.0.zip"
 }
